@@ -1,16 +1,28 @@
-# video_run
+# 🎬 YouTube Clone App (Flutter + GetX + Supabase + Hive)
 
-A new Flutter project.
+A basic YouTube clone built using **Flutter** for cross-platform UI, **GetX** for state management and routing, **Supabase** as the backend (authentication, storage, and database), and **Hive** for local data persistence.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🛠️ Tech Stack
 
-A few resources to get you started if this is your first Flutter project:
+- **Flutter** – Frontend framework
+- **GetX** – State management, navigation, dependency injection
+- **Supabase** – Backend services (PostgreSQL DB, Auth, File Storage)
+- **Hive** – Local NoSQL database for caching and offline support
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📱 Features
+
+- 🔐 User Authentication (Sign up / Sign in with Supabase)
+- 🎥 Upload videos to Supabase storage
+- 🧾 Fetch video list from Supabase DB
+- ❤️ Like videos (basic interaction)
+- 💬 Comments system (optional)
+- 💾 Local caching using Hive
+- 📱 Responsive UI for Android and IOS
+
+
+
+
